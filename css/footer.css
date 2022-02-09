@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 页脚 */
+
+.footer{
+	height:122px;
+	margin-top:10px;
+	background:#f6f6f6;
+	border:1px solid #cc;
+}
+	.footer .center_area{
+		background:#fff;
+	}
+	.footer p{
+		text-align:center;
+		line-height:25px;
+	}
+	
+

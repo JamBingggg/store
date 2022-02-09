@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* 头部样式 */
+
+#header{
+	height:157px;
+}
+.center_area{
+	width:1190px;
+	margin:0 auto;
+}
+
+/*收藏层*/
+.favorite{
+	height:27px;
+	background:#f7f7f7;
+}
+
+/*LOGO层*/
+.logo{
+	height:90px;
+}
+	/*LOGO图*/
+	.logo_img{
+		width:221px;
+		height:46px;
+		padding: 29px 118px 15px 27px;
+		float:left;
+	}
+	/*搜索块*/
+	.search{
+		width:521px;
+		height:70px;
+		float:left;
+		padding-top:20px;
+	}
+		/*搜索块 上行*/
+		.search_top{
+			width:450px;
+			height:32px;
+			border:2px solid #690000;
+			line-height:1;
+		}
+			.search_top_left{
+				float:left;
+			}
+			.search_top_center{
+				float:left;
+			}
+				.search_top_center input{
+					width:315px;
+					height:32px;
+					border:0;
+					outline:0;
+					padding-left:5px;
+				}				
+			.search_top_right{
+				float:left;
+			}
+
+		/*搜索块 下行*/
+		.search_bottom{
+			line-height:25px;
+			color:#999;
+		}
+			.search_bottom a{
+				color:#999;
+			}
+			.search_bottom a:hover{
+				color:#ad1000;
+				text-decoration:underline;
+			}
+
+	/*服务块*/
+	.server{
+		width:303px;
+		height:90px;
+		float:left;
+		font:20px/90px "微软雅黑";
+	}
+
+/*导航层*/
+.nav{
+	height:40px;
+	background:#ad0100;
+}
+	.goods_list{
+		float:left;
+	}
+	.nav_list{
+		width:846px;
+		height:40px;
+		float:left;
+	}
+		.nav_list a{
+			color:#fff;
+			font: 15px/40px "微软雅黑";
+			float:left;
+			padding:0 15px;
+		}
+		.nav_list .first, .nav_list a:hover{
+			background:#690000;
+		}
+	.cart{
+		float: left;
+		padding-top:3px;
+	}
+	
+	
+	
+	

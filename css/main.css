@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* 主体 */
+
+/*通用样式*/
+
+/*块标题*/
+h1{
+	font: bold 14px/37px "微软雅黑";
+	color:#3e4c53;
+	background:#eaeef9;
+	padding-left:12px;
+	border-bottom:2px solid #ad0100;
+}
+
+/*块边框*/
+.border01{
+	border:1px solid #ccc;
+}
+
+/*模块层*/
+.modular{
+	margin-top:10px;
+	height:292px;
+}
+
+/*产品列表*/
+.product_list{
+	width:700px;
+	height:292px;
+	float:left;
+	margin-left:10px;
+	overflow:hidden;
+}
+	.product_list h1{
+			border-left:1px solid #ccc;
+			background:#fff;
+			padding-left:0;
+	}
+	.product_list span{
+		width:150px;
+		height:37px;
+		display:inline-block;
+		text-align:center;
+		font: bold 14px/37px "微软雅黑";
+		color:#3e4c53;
+		background:#eaeef9;
+		border-top:1px solid #ccc;
+		border-right:1px solid #ccc;
+	}
+	.product_list span:hover{
+		background:#fff;
+	}
+	.product_list .border01{
+		height:236px;
+		padding:7px;
+	}
+
+	/*产品信息*/
+	.product li{
+		width:161px;
+		float:left;
+		padding:5px;
+	}
+	.product img{
+		width:161px;
+		height:161px;
+	}
+	.product p{
+		line-height:20px;
+		height:40px;
+		overflow:hidden;
+	}
+	.product b{
+		font-size:14px;
+		color:#c30000;
+	}
+
+
+/*目录块*/
+.catalog{
+	width:186px;
+	height:292px;
+	float:left;
+}
+	.catalog .border01{
+		height:188px;
+	}
+	.catalog ul{
+		padding-top:10px;
+	}
+	.catalog a{
+		width:82px;
+		height:15px;
+		display:block;
+		float:left;
+		line-height:15px;
+		text-align:center;
+		padding:5px;
+	}
+	.catalog a:hover{
+		text-decoration:underline;
+	}
+	.catalog img{
+		margin-top:10px;
+		width:186px;
+		height:90px;
+	}
+
+
+/*广告*/
+.ad, .ad img{
+	width:1190px;
+	height:90px;
+}
+	
+/*通用样式结束*/
+
+
+
+/*广告层*/
+.banner{
+	height:390px;
+	padding-top:5px;
+}
+	/*侧栏*/
+	.sidebar{
+		width:174px;
+		padding:5px;
+		float:left;
+	}
+		.sidebar ul{
+			width:174px;
+			height:377px;
+			background:#fff9f1;
+		}
+		.sidebar a{
+			width:159px;
+			height:31px;
+			display:block;
+			color:#3a3a3a;
+			line-height:31px;
+			padding-left:15px;
+			border-top:1px solid #fff;
+			border-bottom:1px solid #efe8e0;
+			background:url(../images/arrow.gif) no-repeat 156px;
+		}
+		.sidebar a:hover{
+			background:#8b8b8b;
+		}
+
+	/*广告图*/
+	.banner_img{
+		width:700px;
+		height:390px;
+		float:left;
+		padding:0 10px;
+		position:relative;
+		overflow:hidden;
+	}
+		#ad1{
+			position:absolute;
+		}
+			#ad1 li, #ad1 img{
+				width:700px;
+				height:390px;
+			}
+	
+		/*广告图 右下方按钮*/
+		.banner_img_btn{
+			width:222px;
+			height:27px;
+			position:absolute;
+			right:10px;
+			bottom:8px;
+		}
+			.banner_img_btn span{
+				width:27px;
+				height:27px;
+				display:inline-block;
+				text-align:center;
+				background:#716564;
+				color:#fff;
+				font:14px/27px "黑体";
+				border-radius:50%;
+				margin-right:10px;
+				cursor:pointer;
+			}
+				.banner_img_btn span.btn_check{
+					background:#f60;
+				}
+	
+	/*公告*/
+	.announcement{
+		width:284px;
+		float:left;
+	}
+		.announcement_up{
+			width:282px;
+			height:138px;
+		}
+			.announcement_up ul{
+				padding:6px;
+			}
+			.announcement_up a{
+				width:105px;
+				height:25px;
+				display:block;
+				line-height:25px;
+				background:url(../images/dot.gif) no-repeat center left;
+				padding:0 18px 0 10px;
+				float:left;
+				/*下面3项用于设置超出宽度部分显示为省略号*/
+				white-space: nowrap;
+				text-overflow:ellipsis;
+				overflow:hidden;
+			}
+			.announcement_up a:hover{
+				text-decoration:underline;
+			}
+
+		.announcement_down{
+			width:262px;
+			height:218px;
+			margin-top:10px;
+			padding:10px;
+		}
+			.announcement_down h2{
+				font: bold 14px/25px "微软雅黑";
+				color:#3a3a3a;
+			}
+			.announcement_down a{
+				line-height:18px;
+				color:#999;
+			}
+			.announcement_down a:hover{
+				text-decoration:underline;
+			}
+				.first_goods_1{
+					padding:0 0 18px 90px;
+				}
+				.first_goods_2{
+					padding:0 86px 0 0;
+				}
+/*广告层结束*/
+
+
+/*促销层*/
+.promotion{
+	height:189px;
+	padding-top:10px;
+}
+	/*节日促销*/
+	.holiday{
+		width:894px;
+		height:187px;
+		float:left;
+	}
+	.holiday img{
+		width:290px;
+		height:138px;
+		margin:5px 3px;;
+		border:1px solid #d0d0d0;
+	}
+	
+	/*团购*/
+	.groupbuying{
+		width:282px;
+		height:187px;
+		margin-left:10px;
+		float:left;
+	}
+	.groupbuying img{
+		width:272px;
+		height:138px;
+		margin:5px;
+	}
+
+/*疯狂抢购层*/
+.snap_up{
+}
+	/*抢购块*/
+	.snap_up .product_list {
+		width:896px;
+		margin:0;
+	}
+		.snap_up .product li, .snap_up .product img, .flash .product li, .flash .product img{
+			width:166px;
+		}
+	
+	/*每日限时块*/
+	.daily_limit{
+		width:282px;
+		height:290px;
+		float:left;
+		margin-left:10px;
+	}
+		.daily_limit .product{
+			padding:13px 55px;
+		}
+		
+/*限时抢购层*/
+
+	/*限时抢购块*/
+	.flash_sale{
+		width:894px;
+		height:292px;
+		float:left;
+	}
+	.flash_sale ul{
+		padding-left:7px;
+	}
+
+	/*品牌块*/
+	.brand{
+		width:282px;
+		height:292px;
+		float:left;
+		margin-left:10px;
+	}
+		.brand li{
+			float:left;
+			margin:6px 0 0 5px;
+		}
+		.brand img{
+			width:131px;
+			height:52px;
+			border:1px solid #ccc;
+		}
+		
+/*家电层*/
+
+
+
